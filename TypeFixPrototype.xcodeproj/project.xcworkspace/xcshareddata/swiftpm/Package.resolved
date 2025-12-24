@@ -1,0 +1,24 @@
+{
+  "originHash" : "9f55ee27d717ec749a9ae382613df6375e636ea7bc5dad70d1e47c14e9da6a9a",
+  "pins" : [
+    {
+      "identity" : "onnxruntime-swift-package-manager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/microsoft/onnxruntime-swift-package-manager",
+      "state" : {
+        "revision" : "12ce7374c86944e1f68f3a866d10105d8357f074",
+        "version" : "1.20.0"
+      }
+    },
+    {
+      "identity" : "symspellswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gdetari/SymSpellSwift.git",
+      "state" : {
+        "revision" : "673246e16338440f6895e119bfacab308d11fce0",
+        "version" : "0.1.4"
+      }
+    }
+  ],
+  "version" : 3
+}

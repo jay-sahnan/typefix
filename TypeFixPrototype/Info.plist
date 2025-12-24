@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSAccessibilityUsageDescription</key>
+	<string>TypeFix needs accessibility access to detect and correct typing errors across apps.</string>
+	<key>NSInputMonitoringUsageDescription</key>
+	<string>TypeFix needs input monitoring to observe keystrokes and provide real-time typo correction.</string>
+</dict>
+</plist>
