@@ -125,6 +125,8 @@ final class CorrectionEngine {
                         
                         if self.correctionMode == .fullFactChecking {
                             self.floatingButton.hide()
+                        } else {
+                            self.floatingButton.hideSpinner()
                         }
                     }
                 }
@@ -146,6 +148,8 @@ final class CorrectionEngine {
                         
                         if self.correctionMode == .fullFactChecking {
                             self.floatingButton.hide()
+                        } else {
+                            self.floatingButton.hideSpinner()
                         }
                     }
                 }
@@ -309,6 +313,10 @@ final class CorrectionEngine {
                     usleep(200000)
                     self.keyMonitor?.resume()
                     self.clearBuffer()
+                    
+                    if self.correctionMode == .basic {
+                        self.floatingButton.hideSpinner()
+                    }
                 } else {
                     completion(correctedSegment, textToCorrect)
                 }
