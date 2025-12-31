@@ -3,7 +3,7 @@
 AI-powered real-time text correction for macOS. TypeFix monitors your typing across all applications and provides intelligent grammar, spelling, and fact-checking corrections using OpenAI's API.
 
 ## Disclaimer
-I cannot code in Swift, so I relied heavily on AI agents to help me write this code.
+I cannot code in Swift, this was Vibe Coded!
 
 ## Features
 
